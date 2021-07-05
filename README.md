@@ -15,7 +15,7 @@ Once these modules are installed you must run either setup_notify_run.bat (Windo
 
 You may also add additional devices by visisting the same URL or scanning the QR code listed on the webpage and pressing "Subscribe on this device" on that device.
 
-Once you are subscribed you may close the webpage. You may visit the URL to unsubscribe.
+Once you are subscribed you may close the webpage. You may visit the URL to unsubscribe. You may also change the URL by running the setup_notify_run script again.
 
 # Configuring the script
 Once the notifications are set up you may open the Gas_Alerts.py file. Here you should locate the line that reads "limit = 15." This determines at which price the script will notify you. You may change this value to any number and the script will send you a notification when the fast gas price is less than or equal to this value.
