@@ -1,7 +1,7 @@
 # Gas-Alerts
 This tool sends alerts to your device when ETH gas prices are less than are equal to a user specified price.
 
-# How to get started
+# Installing modules
 Run install_modules.bat (Windows) or install_modules.sh (Linux). NOTE: you must have both python and pip install for these files to work.
 
 Alternatively, you can install requests-html and notify-run using the following commands:
@@ -10,6 +10,7 @@ pip install requests-html
 
 pip install notify-run
 
+# Setting up notifications
 Once these modules are installed you must run either setup_notify_run.bat (Windows) or setup_notify_run.sh (Linux). You will be presented with a URL and a QR code (the QR code may not display correctly). Visit this URL or scan the QR code on the device you wish to receive notifications on. On the website that opens click the blue button that says "Subscribe on this device." Make sure the button turns gray and says "Already Subscribed." 
 
 You may also add additional devices by visisting the same URL or scanning the QR code listed on the webpage and pressing "Subscribe on this device" on that device.
