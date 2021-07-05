@@ -1,3 +1,5 @@
+#!/bin/bash
+
 pip3 install notify-run
 
 notify-run register
