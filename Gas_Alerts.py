@@ -18,6 +18,6 @@ elements = r.html.xpath('//strong')
 # decide if gas is low
 if int(elements[2].text) < limit:
     print('cheap gas')
-    notify.send('')	# TYPE NOTIFICATION BETWEEN THE QUOTES
+    notify.send('Cheap Gas!')	# TYPE NOTIFICATION BETWEEN THE QUOTES
 else:
     print('expensive gas.')
