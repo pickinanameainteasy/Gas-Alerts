@@ -1,5 +1,7 @@
-@echo off
+#!/bin/bash
 
-pip install requests-html
+sudo apt update && sudo apt install python3-pip -y
 
-pip install notify-run
+pip3 install requests-html
+
+pip3 install notify-run
