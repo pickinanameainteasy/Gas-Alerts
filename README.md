@@ -2,7 +2,7 @@
 This tool sends alerts to your device when ETH gas prices are less than are equal to a user specified price.
 
 # Installing modules
-Run install_modules.bat (Windows) or install_modules.sh (Linux). NOTE: you must have both python and pip install for these files to work.
+Run install_modules.bat (Windows) or install_modules.sh (Linux). NOTE: you must have both python and pip installed for these files to work.
 
 Alternatively, you can install requests-html and notify-run using the following commands:
 
