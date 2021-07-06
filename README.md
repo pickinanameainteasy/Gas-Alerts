@@ -13,7 +13,7 @@ pip install notify-run
 # Setting up notifications
 Once these modules are installed you must run either setup_notify_run.bat (Windows) or setup_notify_run.sh (Linux). You will be presented with a URL and a QR code (the QR code may not display correctly). Visit this URL or scan the QR code on the device you wish to receive notifications on. On the website that opens click the blue button that says "Subscribe on this device." Make sure the button turns gray and says "Already Subscribed." 
 
-You may also add additional devices by visisting the same URL or scanning the QR code listed on the webpage and pressing "Subscribe on this device" on that device.
+You may also add additional devices by visiting the same URL or scanning the QR code listed on the webpage and pressing "Subscribe on this device" on that device.
 
 Once you are subscribed you may close the webpage. You may visit the URL to unsubscribe. You may also change the URL by running the setup_notify_run script again.
 
